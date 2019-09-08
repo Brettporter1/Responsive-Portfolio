@@ -1,0 +1,225 @@
+html, body {
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background-image:url(../images/funky-lines.png);
+    background-size: auto;
+    background-color:#333;
+    overflow:auto;
+}
+.container{
+    min-height:100%;
+    margin-bottom:-55px;
+    clear:both;
+}
+.clearfix{
+    overflow:auto;
+}
+.clearfix::after{
+    content:" ";
+    clear:both;
+    display:block;
+}
+/* header style */
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#fff;
+    border:none;
+    border-bottom:2px solid #ccc;
+    z-index:50;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.headerContainer{
+    width:960px;
+    margin:0px auto;
+}
+
+.headerName{
+    float:left;
+    left:0;
+    background:#4aaaa5;
+    color:#fff;
+    padding:10px 30px;
+}
+
+.headerName h1{
+    text-align:center;
+}
+
+.navLinks{
+    float:right;
+    display:table;
+    padding:30px 0px;
+}
+
+.navLinks a{
+    text-decoration:none;
+    color:#777;
+    padding:0px 0 0 40px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* about style */
+
+.aboutContent{
+    background:#fff;
+    width:920px;
+    padding:20px;
+    margin:135px auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    line-height:200%;
+}
+#aboutImage{
+    width:180px;
+    height:173px;
+    float:left;
+    margin:8px 20px 10px 0px;
+    clear:both;
+}
+
+.pageHeader{
+    border-bottom:2px solid #ccc;
+    padding:0px 0px 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    padding:10px 0px 20px;
+    margin:0 0 20px 0;
+}
+
+/* portfolio style */
+.portfolioContent{
+    background:#fff;
+    width:920px;
+    padding:20px;
+    margin:135px auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    line-height:200%;
+}
+.buttonContainer a {
+    width:280px;
+    height:240px;
+    background:#ccc;
+    float:left;
+    margin:20px;
+    text-align: center;
+    color:#fff;
+}
+.buttonContainer{
+    width:100%;
+}
+
+.buttonTitle{
+    position:absolute;
+    bottom:3px;
+    text-align:center;
+    padding:15px 0px;
+    background-color:#4aaaa5;
+    width:100%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#button1{
+    background-image:url(../images/FoederProject2.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+#button1:hover{
+    opacity:0.8;
+}
+
+#button2{
+    background-image:url(../images/Church_site.jpg);
+    background-size:cover;
+    position:relative;
+}
+#button2:hover{
+    opacity: 0.8;
+}
+
+#button3{
+    background-image:url(../images/kidInSnow.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+#button3:hover{
+    opacity: 0.8;
+}
+
+#button4{
+    background-image:url(../images//KCWC_group.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+#button4:hover{
+    opacity: 0.8;
+}
+
+#button5{
+    background-image:url(../images/KCWC_Glass.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+#button5:hover{
+    opacity: 0.8;
+}
+/* contact style */
+
+.contactContent{
+    background:#fff;
+    width:920px;
+    padding:20px;
+    margin:135px auto;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    line-height:200%;
+}
+form{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input{
+    width:100%;
+    height:25px;
+    border:1px solid #ccc;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+}
+#message{
+    width:100%;
+    border:1px solid #ccc;
+}
+.button{
+    width:125px;
+    height:35px;
+    color:#fff;
+    background:#4aaaa5;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:14px;
+}
+
+/* footer styler */
+
+footer{
+    padding:20px 0px;
+    background:#666;
+    width:100%;
+    height:55px;
+    margin-top:-103px;
+    bottom:0px;
+    border-top:8px solid #4aaaa5;
+}
+
+#copyrightText{
+    margin:0px auto;
+    text-align:center;
+    color:#fff;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
