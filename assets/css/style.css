@@ -30,7 +30,7 @@ header{
     border:none;
     border-bottom:2px solid #ccc;
     z-index:50;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .headerContainer{
@@ -223,3 +223,230 @@ footer{
     color:#fff;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+@media only screen and (max-width:980px){
+    /* header style */
+
+.headerContainer{
+    width:90%;
+    margin:0px auto;
+}
+
+.headerName{
+    float:left;
+    left:0;
+    background:#4aaaa5;
+    color:#fff;
+    padding:10px 30px;
+}
+
+.headerName h1{
+    text-align:center;
+}
+
+.navLinks{
+    float:right;
+    display:table;
+    padding:30px 0px;
+}
+
+.navLinks a{
+    text-decoration:none;
+    color:#777;
+    padding:0px 0 0 40px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* about style */
+
+.aboutContent{
+    width:60%;
+    margin:135px 0px 0px 5%;
+}
+
+
+/* portfolio style */
+.portfolioContent{
+    width:60%;
+    margin:135px 0px 0px 5%;
+}
+.buttonContainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.buttonContainer a {
+    width:48%;
+    height:240px;
+    margin:15px 0px;
+}
+
+/* contact style */
+
+.contactContent{
+    width:60%;
+    margin:135px 0px 0px 5%;
+}
+    
+}
+
+@media screen and (max-width:768px){
+    /* header style */
+    .headerContainer{
+        width:100%;
+        margin:0px auto;
+    }
+    
+    .headerName{
+        margin-left:20px;
+    }
+    
+    .headerName h1{
+        text-align:center;
+    }
+    
+    .navLinks{
+        float:right;
+        display:table;
+        padding:30px 0px;
+        margin-right:20px;
+    }
+    
+    .navLinks a{
+        text-decoration:none;
+        color:#777;
+        padding:0px 0 0 40px;
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+/* about style */
+
+.aboutContent{
+    width:85%;
+    margin:135px auto;
+}
+#aboutImage{
+    width:50%;
+    height:auto;
+    margin:8px 20px 20px 0px;
+    clear:both;
+}
+/* portfolio style */
+.portfolioContent{
+    width:85%;
+    margin:135px auto;
+}
+.buttonContainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.buttonContainer a {
+    width:48%;
+    min-height:250px;
+    margin:20px 0px;
+    color:#fff;
+}
+.buttonContainer{
+    width:100%;
+}
+
+.buttonTitle{
+    position:absolute;
+    bottom:3px;
+    text-align:center;
+    padding:15px 0px;
+    background-color:#4aaaa5;
+    width:100%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* contact style */
+
+.contactContent{
+    width:85%;
+    margin:135px auto;
+}
+    
+}
+
+@media only screen and (max-width:640px){
+    /* header style */
+    .headerContainer{
+        width:100%;
+        margin:0px auto;
+    }
+    
+    .headerName{
+        float:none;
+        width:100%;
+        margin:0px
+    }
+    
+    .headerName h1{
+        text-align:center;
+    }
+    
+    .navLinks{
+        width:70%;
+        margin:0px auto;
+        float:none;
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .navLinks a{
+        padding:0px 0 0 0px;
+    }
+    
+    /* about style */
+    
+    .aboutContent{
+        width:85%;
+        padding:20px;
+        margin:235px auto;
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color:#777;
+        line-height:200%;
+    }
+    #aboutImage{
+        width:100%;
+        height:auto;
+        float:none;
+        margin:8px auto;
+        clear:both;
+    }
+    /* portfolio style */
+    .portfolioContent{
+        width:85%;
+        margin:235px auto;
+    }
+    .buttonContainer a {
+        width:100%;
+        min-height:250px;
+        max-height:650px;
+        display:block;
+        float:none;
+        margin:40px auto;
+        color:#fff;
+    }
+    .buttonContainer{
+        width:100%;
+    }
+    
+    .buttonTitle{
+        position:absolute;
+        bottom:3px;
+        text-align:center;
+        padding:15px 0px;
+        background-color:#4aaaa5;
+        width:100%;
+        font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+    /* contact style */
+    
+    .contactContent{
+        width:85%;
+        margin:185px auto;
+    }
+    
+    }
